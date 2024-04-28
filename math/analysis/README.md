@@ -2,6 +2,6 @@
 sort: 1
 ---
 
-# 数学分析
+# 分析
 
 {% include list.liquid all=true %}
