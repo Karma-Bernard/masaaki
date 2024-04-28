@@ -1,100 +1,31 @@
-# jekyll-rtd-theme
+# 欢迎报考正秋一中!
 
-![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=develop)
-![jsDelivr](https://data.jsdelivr.com/v1/package/gh/rundocs/jekyll-rtd-theme/badge)
+正秋一中是正秋市架空世界观中坐落于于学府区学园都市正秋大学西南端的超级中学.本校旨在录取,培养,塑造综合性的专业人材,以人类和改造人,非人生物,奇型种的共同进化为最高目标,进行知识的传播,呈递,输出与再生产;作为智性生物的博洛尼亚存在.
+![正秋一中校徽](https://raw.githubusercontent.com/Karma-Bernard/masaaki/develop/images/_4e935056-5b27-4005-917a-c9d29951d211.jfif)
 
-Just another documentation theme compatible with GitHub Pages
+Harder,Better,Faster,Stronger
 
-## What it does?
+## 我们如何招生?
 
-This theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphinx_rtd_theme) and refactored with:
+该校不分编制,没有本研之分,学制统一为12年制.学生入校时会被注射激素缓释药物,在前三日会有营养供给.该药物已经经过三期临床试验确保在副作用几乎次次不明显的情况下保证延缓生长的过程,
+12年过程中的发育过程会被缓降为4年的表象,毕业时的表观年龄全部填写为“19岁”.毕业证书校方具有解释权与终身授予权.
 
-- [@primer/css](https://github.com/primer/css)
-- [github-pages](https://github.com/github/pages-gem) ([dependency versions](https://pages.github.com/versions/))
+录取的机制为“五试”,分五次进行,三次闭卷笔试,两次面试.报名参加录取考试没有任何的限制.报名初审为一试,筛选出30%人进入二试,难度相对较低,涉及的范围分为数学和社会科学.二试为省级闭卷考试,数学类分为数学和物理,社科不分类,作为总论和通识论述考试.
+三试为面试,通过对自己的描述,进行封闭式14日的资料供给,最终的考核模式以口头报告和文献综述的形式进行.由在校的17名学生组成的评委团进行打分考核与提问答辩.剔除最高最低分后,由评价分数的样本期望进行评估,期望相同时,样本方差较小的人获胜,样本方差相同时,比较样本四阶矩,峰度高的人获胜.四试为理论最终测试,为对于理论知识的最重要考核,末试为口头面试,15分钟的交谈,结果与四试以决定最终的去留仅剩余的考生作为学生录取.
 
-## Quick start
+## 如何学习
 
-```yml
-remote_theme: rundocs/jekyll-rtd-theme
-```
+学习过程以综合考察并部的形式对全校学生进行统一的学习安排和任务调节.院系编制仅与授课与研究相关,学生在公学内部可以修习任意自己喜爱的课程(部分课程存在先修要求),学生的学分设置一学期不得低于20,不设上限,12年全学时毕业所需的学分不低于500,每学期学分低于12可能会面临学籍处理.
 
-You can [generate](https://github.com/rundocs/starter-slim/generate) with the same files and folders from [rundocs/starter-slim](https://github.com/rundocs/starter-slim/)
+上课模式全部为线下授课,课时为45分钟的整数倍,由课题本身的内禀特性决定时间的长度.学生所需的课程分为必选课,限选课,通选课,文选课,体选课.按定义分:必选课是面对所有的学生必须完成的课程;限选课是一类需要某些必修课或通选课先修要求的进阶类型课程;通选课是全校同学都可以选择,没有限制的课程;文选课为外文课,二外课程以及阅读写作;体选课便为必修的身体素质课程.
 
-## Usage
+实验课程合并于限选和通选课程之中,而类似于SRT,学生论文,科研工作等同样会被以等当量的阶折合成为学分和GPA给予同期学期的成绩.
 
-Documentation that can guide how to create with Github pages, please refer to [rundocs.io](https://rundocs.io) for details
+## 如何让你的oc加入学习?
 
-## Features
+那当然是参加我们的招生大会啦!我们的招生会在每年的暑假举行,届时请加入我们的正秋一中qq群组,我们会随时跟进选拔的进度的!(实际上我们根本不会刷人,只要报名学习的孩子都是正秋一中的好孩子)
 
-- Shortcodes (Toasts card, mermaid)
-- Pages Plugins (emoji, gist, avatar, mentions)
-- Auto generate sidebar
-- [Attribute List Definitions](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions) (Primer/css utilities, Font Awesome 4)
-- Service worker (caches)
-- SEO (404, robots.txt, sitemap.xml)
-- Canonical Link (Open Graph, Twitter Card, Schema data)
+## 我想成为Sensei!
 
-## Options
+很好,但这必须经过我们的笔试和面试才能够证明你能承担起正秋一中教师的能力,如果选择加入,你已经是我们这个开源教学库维护团队的一员了.
 
-| name          | default value        | description       |
-| ------------- | -------------------- | ----------------- |
-| `title`       | repo name            |                   |
-| `description` | repo description     |                   |
-| `url`         | user domain or cname |                   |
-| `baseurl`     | repo name            |                   |
-| `lang`        | `en`                 |                   |
-| `direction`   | `auto`               | `ltr` or `rtl`    |
-| `highlighter` | `rouge`              | Cannot be changed |
-
-```yml
-# folders sort
-readme_index:
-  with_frontmatter: true
-
-meta:
-  key1: value1
-  key2: value2
-  .
-  .
-  .
-
-google:
-  gtag:
-  adsense:
-
-mathjax: # this will prased to json, default: {}
-
-mermaid:
-  custom:     # mermaid link
-  initialize: # this will prased to json, default: {}
-
-scss:   # also _includes/extra/styles.scss
-script: # also _includes/extra/script.js
-
-translate:
-  # shortcodes
-  danger:
-  note:
-  tip:
-  warning:
-  # 404
-  not_found:
-  # copyright
-  revision:
-  # search
-  searching:
-  search:
-  search_docs:
-  search_results:
-  search_results_found: # the "#" in this translate will replaced with results size!
-  search_results_not_found:
-
-plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
-```
-
-## The license
-
-The theme is available as open source under the terms of the MIT License
